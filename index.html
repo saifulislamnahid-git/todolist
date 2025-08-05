@@ -10,15 +10,17 @@
       <div class="todo-app">
         <h1>ToDo App <img src="images/icon.png" /></h1>
         <div class="row">
-          <input placeholder="add your text" type="text" />
-          <button>Add</button>
+          <input id="input-box" placeholder="add your text" type="text" />
+          <button onclick="addTask()">Add</button>
         </div>
-        <ul>
-          <li class="checked">Drink Water</li>
+        <ul id="list-container">
+          <!-- <li class="checked">Drink Water</li>
           <li>Drink Juice</li>
-          <li>Buy Dates</li>
+          <li>Buy Dates</li> -->
         </ul>
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
